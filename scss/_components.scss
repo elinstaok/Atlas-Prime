@@ -1,0 +1,103 @@
+.menu {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f9f8f8;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #fcfafa;
+      left: 0;
+      bottom: -6px;
+      transition: width 0.3s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
+
+.btn-primary {
+  background: $gold;
+  color: $black;
+  padding: 15px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15rem;
+  margin: 10px 14px;
+  display: inline-block;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+}
+
+.btn-secondary {
+  color: $gold;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.service-card {
+  @include card-frame($gold);
+}
+
+.benefits {
+  ul {
+    @include card-frame($gold);
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+}
+
+.testimonials {
+  blockquote {
+    @include card-frame($gold);
+  }
+}
+
+.hero {
+  animation: fadeUp 1s ease-out;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .menu ul {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn-primary {
+    margin: 10px 0;
+  }
+}

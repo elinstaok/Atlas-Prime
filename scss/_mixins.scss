@@ -1,0 +1,5 @@
+@mixin card-frame($border-color) {
+  background: #111;
+  padding: 30px;
+  border: 1px solid $border-color;
+}
