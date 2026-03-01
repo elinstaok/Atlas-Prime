@@ -1,8 +1,10 @@
-@use "variables";
-@use "mixins";
-@use "base";
-@use "layout";
-@use "components";
+@import "variables";
 
-// Importar Bootstrap desde node_modules (compilado dentro de tu styles.css)
+/* 2) Bootstrap compilado dentro de tu CSS */
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+/* 3) Tus partials */
+@import "mixins";
+@import "base";
+@import "layout";
+@import "components";
