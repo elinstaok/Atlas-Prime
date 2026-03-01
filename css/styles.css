@@ -12080,5 +12080,18 @@ footer,
     margin: 10px 0;
   }
 }
+.navbar .nav-link {
+  color: rgba(245, 247, 255, 0.85);
+}
+.navbar .nav-link:hover {
+  color: #D4AF37;
+}
+
+.navbar .nav-link:focus-visible,
+.navbar .btn:focus-visible,
+.navbar-toggler:focus-visible {
+  outline: 3px solid #D4AF37;
+  outline-offset: 3px;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -119,3 +119,17 @@
     margin: 10px 0;
   }
 }
+.navbar .nav-link {
+  color: rgba(245, 247, 255, 0.85);
+
+  &:hover {
+    color: $gold;
+  }
+}
+
+.navbar .nav-link:focus-visible,
+.navbar .btn:focus-visible,
+.navbar-toggler:focus-visible {
+  outline: 3px solid $gold;
+  outline-offset: 3px;
+}
