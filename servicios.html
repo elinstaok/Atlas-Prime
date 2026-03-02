@@ -6,20 +6,43 @@
     <link rel="stylesheet" href="./css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body><header class="header">
-    <div class="logo">
-        <img src="./img/logo-atlas-prime.png" alt="El logo de Atlas Prime con un globo terráqueo y una flecha simbolizando la conexión global y eficiencia en transporte">
-        <span class="brand">Atlas Prime</span>
-    </div>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html"
+                    aria-label="Atlas Prime, ir al inicio">
+                    <img src="./img/logo-atlas-prime.png" alt="Logo de Atlas Prime" width="44" height="44">
+                    <span class="fw-semibold">Atlas Prime</span>
+                </a>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Abrir o cerrar menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3 mt-3 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+
+                        <li class="nav-item mt-2 mt-lg-0">
+                            <a class="btn btn-primary px-4" href="./contacto.html">Solicitar cotización</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 </body>
     <main>
