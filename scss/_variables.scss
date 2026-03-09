@@ -1,16 +1,16 @@
-$navy: #0B1220;        // fondo principal
-$navy-2: #111A2E;      // superficies / secciones
-$gold: #D4AF37;        // acento premium
-$blue-accent: #4DA3FF; // acento secundario (links hover)
-$text: #F5F7FF;        // texto claro
+$navy: #0B1220;        
+$navy-2: #111A2E;      
+$gold: #D4AF37;        
+$blue-accent: #4DA3FF; 
+$text: #F5F7FF;        
 $muted: rgba(245, 247, 255, 0.72);
 
 $font-main: "Segoe UI", Arial, sans-serif;
 
-/* Fondo (si querés mantener imagen, si no, luego la apagamos) */
-$bg-img: "../img/FONDO.png";
+/* Fondo  */
+$bg-img: url(../img/fondoatr.jpg);";
 
-/* Bootstrap overrides (importante: para que cuente) */
+/* Bootstrap overrides  */
 $primary: $gold;
 $secondary: $blue-accent;
 $body-bg: $navy;
