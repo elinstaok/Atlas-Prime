@@ -1,68 +1,280 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Servicios - Atlas Prime</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Servicios - Atlas Prime</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+
 </head>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-light">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html"
-                    aria-label="Atlas Prime, ir al inicio">
-                    <img src="./img/logo-atlas-prime.png" alt="Logo de Atlas Prime" width="44" height="44">
-                    <span class="fw-semibold">Atlas Prime</span>
-                </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
-                    aria-controls="mainNav" aria-expanded="false" aria-label="Abrir o cerrar menú de navegación">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-light">
+<div class="container">
 
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3 mt-3 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
+<a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+<img src="./img/logo-atlas-prime.png" width="44" height="44">
+<span class="fw-semibold">Atlas Prime</span>
+</a>
 
-                        <li class="nav-item mt-2 mt-lg-0">
-                            <a class="btn btn-primary px-4" href="./contacto.html">Solicitar cotización</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="mainNav">
+
+<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3 mt-3 mt-lg-0">
+
+<li class="nav-item">
+<a class="nav-link" href="./index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="./servicios.html">Servicios</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="./nosotros.html">Nosotros</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="./contacto.html">Contacto</a>
+</li>
+
+<li class="nav-item mt-2 mt-lg-0">
+<a class="btn btn-primary px-4" href="./contacto.html">Solicitar cotización</a>
+</li>
+
+</ul>
+</div>
+</div>
+</nav>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero text-center py-5">
+
+<h1>Nuestras soluciones logísticas</h1>
+
+<p class="mx-auto" style="max-width:700px;">
+Servicios diseñados para empresas que exigen seguridad,
+eficiencia y cumplimiento en cada envío.
+</p>
+
+</section>
+
+
+<!-- SERVICIOS -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Nuestros Servicios</h2>
+
+<div class="row g-4">
+
+
+<div class="col-md-4">
+
+<div class="service-card">
+
+<img src="./img/terrestre.jpg" class="img-fluid mb-3">
+
+<h3>Transporte terrestre</h3>
+
+<p>
+Transporte seguro con planificación de rutas
+y control logístico profesional.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="service-card">
+
+<img src="./img/integral.jpg" class="img-fluid mb-3">
+
+<h3>Logística integral</h3>
+
+<p>
+Gestión completa de la cadena de suministro
+desde origen hasta destino.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="service-card">
+
+<img src="./img/paquetes.jpg" class="img-fluid mb-3">
+
+<h3>Gestión de paquetes</h3>
+
+<p>
+Seguimiento y manipulación segura
+en cada etapa del envío.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROCESO -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Cómo trabajamos</h2>
+
+<div class="row text-center">
+
+<div class="col-md-3">
+<h4>1</h4>
+<p>Recepción del pedido</p>
+</div>
+
+<div class="col-md-3">
+<h4>2</h4>
+<p>Planificación logística</p>
+</div>
+
+<div class="col-md-3">
+<h4>3</h4>
+<p>Transporte seguro</p>
+</div>
+
+<div class="col-md-3">
+<h4>4</h4>
+<p>Entrega final</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CALCULADORA -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">Calculadora de envío</h2>
+
+<p class="text-center">
+Calculá el costo estimado según la distancia.
+</p>
+
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+
+<input type="number" id="km" class="form-control mb-3" placeholder="Distancia en kilómetros">
+
+<button class="btn btn-primary w-100" onclick="calcularEnvio()">
+Calcular costo estimado
+</button>
+
+<h4 class="text-center mt-3" id="resultado"></h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- MAPA -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">Cobertura logística</h2>
+
+<p class="text-center">
+Nuestra red de transporte cubre múltiples regiones.
+</p>
+
+<div class="ratio ratio-16x9">
+
+<iframe
+src="https://maps.google.com/maps?q=buenos%20aires&t=&z=6&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="text-center py-5">
+
+<h2>Lleve su logística al siguiente nivel</h2>
+
+<a href="./contacto.html" class="btn btn-primary btn-lg mt-3">
+Solicitar cotización
+</a>
+
+</section>
+
+</main>
+
+
+<footer class="text-center py-4">
+
+<p>&copy; 2025 Atlas Prime. Todos los derechos reservados.</p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+function calcularEnvio(){
+
+let km = document.getElementById("km").value;
+
+let precio = km * 500;
+
+document.getElementById("resultado").innerText =
+"Costo estimado: $" + precio;
+}
+</script>
 </body>
-    <main>
-        <h1>Servicios</h1>
-        <section>
-            <h2>Transporte Nacional e Internacional</h2>
-            <p>Contamos con una flota moderna para transportar tus mercancías de manera segura y eficiente, tanto a nivel nacional como internacional.</p>
-            <p>Ofrecemos una amplia gama de servicios de logística y transporte para satisfacer todas tus necesidades.</p>
-        </section>
-        <section>
-            <h2>Cotización Por Kilómetro</h2>
-            <p>Obtén cotizaciones personalizadas basadas en la distancia y el tipo de carga que necesitas transportar.</p>
-        </section>
-        <section>
-            <h2>Seguimiento en Tiempo Real</h2>
-            <p>Nuestro sistema de seguimiento en tiempo real te permite monitorear el estado de tus envíos en cualquier momento.</p>
-        </section>
-    </main>   
-    <footer>
-        <p>&copy; 2025 Atlas Prime. Todos los derechos reservados.</p>
-    </footer>
 </html>
